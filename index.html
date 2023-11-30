@@ -8,11 +8,28 @@
     <script type="module" src="./app.js"></script>
 </head>
 <body>
+    <section class="heading">Etch-A-Sketch</section>
     <section class="container">
         <section class="sec1">
-            <button class="color btn"> C </button>
+            <div class="colors">
+                <div class="white c"></div>
+                <div class="red c"></div>
+                <div class="green c"></div>
+                <div class="blue c"></div>
+                <div class="black c"></div>
+                <div class="purple c"></div>
+                <div class="voilet c"></div>
+                <div class="rainbow c"></div>
+                <div class="lastPicked c"></div>
+            </div>
+            <button class="color btn"> Pick color </button>
+            <div class="brushSize">
+                <p>Brush Size<span class="size">64x64</span></p>
+                <input type="range" name="" id="" max="64" min="1" step="1" value="64" class="slider">
+            </div>
         </section>
-        <section class="sec2"></section>
+        <div class="sec2"></div>
     </section>
+    <section class="colorPicker"></section>
 </body>
 </html>
